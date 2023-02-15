@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import os
 
 from flask import (
@@ -25,11 +26,18 @@ class User(db.Model):
 
     def __init__(self, email):
         self.email = email
+=======
+from flask import Flask, jsonify
+
+
+app = Flask(__name__)
+>>>>>>> bcc15e2dc7991fdf2486b2282223e7564742319c
 
 
 @app.route("/")
 def hello_world():
     return jsonify(hello="world")
+<<<<<<< HEAD
 
 @app.route("/static/<path:filename>")
 def staticfiles(filename):
@@ -53,3 +61,5 @@ def upload_file():
       <p><input type=file name=file><input type=submit value=Upload>
     </form>
     """
+=======
+>>>>>>> bcc15e2dc7991fdf2486b2282223e7564742319c

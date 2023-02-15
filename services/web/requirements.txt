@@ -1,4 +1,7 @@
 Flask==2.2.2
+<<<<<<< HEAD
 Flask-SQLAlchemy==2.5.1
 gunicorn==20.1.0
 psycopg2-binary==2.9.4
+=======
+>>>>>>> bcc15e2dc7991fdf2486b2282223e7564742319c
